@@ -1,0 +1,212 @@
+/*** CSS VARIABLES ***/
+
+:root {
+  --primary-color: #fff;
+  --secondary-color: #fff;
+  --highlight-color: #ffffff;
+  /*--hdr-shadow: 0px 10px 12px 0px rgba(33, 35, 38, 0.3);*/
+  --header-icon: #fff;
+  --header-icon-selected: #ffffff;
+}
+
+/*** GLOBAL STYLES ***/
+html,
+body {
+  width: 100%;
+
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+body {
+  background: url(img/abstract-sale-busioness-background-banner-design-multipurpose.png);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input {
+  font-size: 100%;
+}
+
+.centered {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+/*** HEADER STYLES ***/
+
+.home-team-header>h1 {
+  font-size: 25px;
+}
+
+h1 {
+  font-size: 30px;
+  color: #fff;
+  padding: 2rem;
+}
+
+.exit-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: #fff;
+  padding: 2rem;
+  margin-top: 2rem;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h4 {
+  font-size: 20px;
+  color: #fff;
+}
+
+p {
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.main-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: .5rem;
+  margin: 2rem;
+}
+
+.clear {
+  color: #ff0000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.account {
+  color: #ffff00;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.betting-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bet-slip-options {
+  font-size: 15px;
+  background-color: #fff;
+  border: 2px solid #000000;
+  color: #000000;
+  text-align: center;
+  padding: 15px 28px;
+}
+
+.green {
+  font-weight: bold;
+  color: green;
+}
+
+.wager-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+  padding: 2rem;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 2em;
+}
+
+.wager-amount {
+  text-decoration: underline;
+}
+
+.total-payout-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid #fff;
+}
+
+.payout-totals {
+  color: #fff;
+  padding: 2rem;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 2em;
+}
+
+.calculator-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  padding: 2rem;
+}
+
+.grid-item {
+  font-size: 20px;
+  background-color: #fff;
+  border: 5px solid;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+}
+
+.grid-item:hover {
+  color: #CBAA65;
+}
+
+.submit-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem;
+}
+
+button {
+  width: 95%;
+  text-align: center;
+  border: none;
+}
+
+.footer-totals {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem;
+  color: #fff;
+  font-size: 15px;
+}
