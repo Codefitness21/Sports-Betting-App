@@ -76,7 +76,8 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 3rem;
-    
+    position: fixed;
+    z-index: 1;
 }
 
 .header-logo {
@@ -166,6 +167,7 @@ a:hover {
     font-size: 2.5rem;
     font-weight: bold;
     color: #CBAA65;
+    margin-top: 8rem;
     margin-bottom: 2rem;
 }
 
@@ -322,6 +324,10 @@ button {
     border-radius: 5px;
     margin-bottom: 2rem;
     border: 1px solid #CBAA65;
+}
+
+.league-carousel-item>a {
+    color: #fff;
 }
 
 a {
