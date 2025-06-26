@@ -15,10 +15,10 @@ This was my first big coding project with Digital Seat Media. Having learned Jav
 ## Examples:
 
 **Portfolio:** https://codefitness21.github.io/Portfolio/                                        
-<img src="img/Screenshot 2025-06-26 at 6.04.39 PM.png" alt="Portfolio Image" width="100" />
+<img src="img/Screenshot 2025-06-26 at 6.04.39 PM.png" alt="Portfolio Image" width="200" />
 
 **Bamboo Village Books:** https://www.bamboovillagebooks.com/
-<img src="BVB_Desktop.jpg" alt="BVB Image" width="100" >
+<img src="BVB_Desktop.jpg" alt="BVB Image" width="200" >
 
 **Extrahands:** https://main.d1aa7jmphrn7j7.amplifyapp.com/
-<img src="Extrahands_Desktop.jpg" alt="Extrahands Image" width="100" />
+<img src="Extrahands_Desktop.jpg" alt="Extrahands Image" width="200" />
