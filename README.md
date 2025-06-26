@@ -19,3 +19,4 @@ This was my first big coding project with Digital Seat Media. Having learned Jav
 **Bamboo Village Books:** https://www.bamboovillagebooks.com/
 
 **Extrahands:** https://main.d1aa7jmphrn7j7.amplifyapp.com/
+<img src="img/Screenshot 2025-06-26 at 6.04.39 PM.png" alt="Portfolio Image" width="200" /><img src="BVB_Desktop.jpg" alt="BVB Image" width="200" ><img src="Extrahands_Desktop.jpg" alt="Extrahands Image" width="200" />
