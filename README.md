@@ -13,10 +13,10 @@ Tasked by Digital Seat Media to create a simplistic sports betting app that coul
 This was my first big coding project with Digital Seat Media. Having learned JavaScript, I can make the calculator more functional, and with knowledge of Vue, build it in a framework where it's more structured using components for streamlining the development process, routing, and clean code. 
 
 ## Examples:
-
+<div align="center">
 **Portfolio:** 
 <a href="https://codefitness21.github.io/Portfolio/"><img src="img/Screenshot 2025-06-26 at 6.04.39 PM.png" alt="Portfolio Image" width="200" hspace="10"/></a>  <a href="https://www.bamboovillagebooks.com/"><img src="BVB_Desktop.jpg" alt="BVB Image" width="200" hspace="10"></a> <a href="https://main.d1aa7jmphrn7j7.amplifyapp.com/"><img src="Extrahands_Desktop.jpg" alt="Extrahands Image" width="200" hspace="10"/></a>
-
+</div>
 <!-- **Bamboo Village Books:**  -->
 
 
