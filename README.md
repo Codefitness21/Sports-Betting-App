@@ -1,7 +1,12 @@
 # Sports-Betting-Line-App 
 Mobile mock-up version of the Caesars Sportsbook app designed to be easily navigable to users.
-![Sports Betting Image](img/Top_Straight_Sports_Betting_Img.jpg){ width=400 }
+![Sports Betting Image](img/Top_Straight_Sports_Betting_Img.jpg)
 
+body img {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
 
 **Link to project:** https://codefitness21.github.io/Sports-Betting-App/
 
