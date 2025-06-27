@@ -25,11 +25,11 @@ This was my first big coding project with Digital Seat Media. Having learned Jav
     </div>
     <div style="display: flex; flex-direction: row; text-align: center; margin: 10px;">
       <p><strong>Title 2</strong></p>
-      <img src="https://via.placeholder.com/150" width="150">
+      <img src="BVB_Desktop.jpg" width="150">
     </div>
     <div style="display: flex; flex-direction: row; text-align: center; margin: 10px;">
       <p><strong>Title 3</strong></p>
-      <img src="https://via.placeholder.com/150" width="150">
+      <img src="Extrahands_Desktop.jpg" width="150">
     </div>
   </div>
 </p>
