@@ -21,7 +21,7 @@ This was my first big coding project with Digital Seat Media. Having learned Jav
   <div align="center">
     <div style="display: flex; flex-direction: row; text-align: center; margin: 10px;">
       <p><strong>Title 1</strong></p>
-      <img src="https://via.placeholder.com/150" width="150">
+      <img src="img/Screenshot 2025-06-26 at 6.04.39 PM.png" width="150">
     </div>
     <div style="display: flex; flex-direction: row; text-align: center; margin: 10px;">
       <p><strong>Title 2</strong></p>
