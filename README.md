@@ -13,7 +13,7 @@ This was my first big coding project with Digital Seat Media. Having learned Jav
 
 ## Examples:
 
-### Here are some other examples of my work. Click on the image to see more:                                                                                                                                              
+### Here are some other examples of my work. Click on each image to see more:                                                                                                                                              
 <div style="display: flex; flex-direction: row; justify-content: center;">
   <div style="display: flex; flex-direction: column; align-items: center; margin: 10px;">
     <p><strong>Portfolio</strong></p>
