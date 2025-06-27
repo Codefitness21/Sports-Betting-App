@@ -19,15 +19,15 @@ This was my first big coding project with Digital Seat Media. Having learned Jav
 
 <p align="center">
   <div align="center">
-    <div style="display: inline-block; text-align: center; margin: 10px;">
+    <div style="display: flex; text-align: center; margin: 10px;">
       <p><strong>Title 1</strong></p>
       <img src="https://via.placeholder.com/150" width="150">
     </div>
-    <div style="display: inline-block; text-align: center; margin: 10px;">
+    <div style="display: flex; text-align: center; margin: 10px;">
       <p><strong>Title 2</strong></p>
       <img src="https://via.placeholder.com/150" width="150">
     </div>
-    <div style="display: inline-block; text-align: center; margin: 10px;">
+    <div style="display: flex; text-align: center; margin: 10px;">
       <p><strong>Title 3</strong></p>
       <img src="https://via.placeholder.com/150" width="150">
     </div>
