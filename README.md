@@ -14,10 +14,19 @@ This was my first big coding project with Digital Seat Media. Having learned Jav
 
 ## Examples:
 
+<!-- 
+<a href="https://codefitness21.github.io/Portfolio/"><img src="img/Screenshot 2025-06-26 at 6.04.39 PM.png" alt="Portfolio Image" width="200" hspace="10"/></a>   <a href="https://www.bamboovillagebooks.com/"><img src="BVB_Desktop.jpg" alt="BVB Image" width="200" hspace="10"></a>  <a href="https://main.d1aa7jmphrn7j7.amplifyapp.com/"><img src="Extrahands_Desktop.jpg" alt="Extrahands Image" width="200" hspace="10"/></a> -->
 
-<a href="https://codefitness21.github.io/Portfolio/"><img src="img/Screenshot 2025-06-26 at 6.04.39 PM.png" alt="Portfolio Image" width="200" hspace="10"/></a>   <a href="https://www.bamboovillagebooks.com/"><img src="BVB_Desktop.jpg" alt="BVB Image" width="200" hspace="10"></a>  <a href="https://main.d1aa7jmphrn7j7.amplifyapp.com/"><img src="Extrahands_Desktop.jpg" alt="Extrahands Image" width="200" hspace="10"/></a>
 
-
-
+<p align="center">
+  <div style="display: inline-block; text-align: center; margin: 10px;">
+    <p><strong>Title 1</strong></p>
+    <img src="https://via.placeholder.com/150" alt="Image 1" width="150"/>
+  </div>
+  <div style="display: inline-block; text-align: center; margin: 10px;">
+    <p><strong>Title 2</strong></p>
+    <img src="https://via.placeholder.com/150" alt="Image 2" width="150"/>
+  </div>
+</p>
 
 
