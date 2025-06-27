@@ -22,11 +22,11 @@ This was my first big coding project with Digital Seat Media. Having learned Jav
       <p><strong>Portfolio</strong></p>
       <img src="img/Screenshot 2025-06-26 at 6.04.39 PM.png" width="200">
     </div>
-    <div style="display: flex; flex-direction: row; text-align: center; margin: 10px;">
+    <div style="display: inline-flex; flex-direction: row; text-align: center; margin: 10px;">
       <p><strong>Bamboo Village Books </strong></p>
       <img src="BVB_Desktop.jpg" width="200">
     </div>
-    <div style="display: flex; flex-direction: row; text-align: center; margin: 10px;">
+    <div style="display: inline-flex; flex-direction: row; text-align: center; margin: 10px;">
       <p><strong>Extrahands</strong></p>
       <img src="Extrahands_Desktop.jpg" width="200">
     </div>
