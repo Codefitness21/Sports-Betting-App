@@ -1,21 +1,39 @@
+function closeNav() {
+  document.getElementById("mySlidenav").style.width = "0px";
+}
+function openNav() {
+  document.getElementById("mySlidenav").style.width = "400px";
+}
 
-/*var arr = document.querySelector('.collapsible');
-arr.addEventListener('click', function(event) {
-  event.target.classList.toggle('.active');
-});
-/*document.onclick = function () {
-  window.location.href = 'Sports_Betting.html';
-}*/
-/*const collapsible = document.querySelector(".collapsible");
-const gameboard = document.querySelector(".game-board>img");
-collapsible.addEventListener("click", () => {
-    collapsible.classList.toggle("active");
-    gameboard.classList.toggle("expanded");
-})*/
-/*const headermenu = document.querySelector(".header-menu");
- const appheadermenu = document.querySelector(".app-header-menu");
+document.querySelector("#one").addEventListener("click", appendToDisplay);
+document.querySelector("#two").addEventListener("click", appendToDisplay);
+document.querySelector("#three").addEventListener("click", appendToDisplay);
+document.querySelector("#four").addEventListener("click", appendToDisplay);
+document.querySelector("#five").addEventListener("click", appendToDisplay);
+document.querySelector("#six").addEventListener("click", appendToDisplay);
+document.querySelector("#seven").addEventListener("click", appendToDisplay);
+document.querySelector("#eight").addEventListener("click", appendToDisplay);
+document.querySelector("#nine").addEventListener("click", appendToDisplay);
+document.querySelector("#zero").addEventListener("click", appendToDisplay);
+document.querySelector("#period").addEventListener("click", appendToDisplay);
 
- headermenu.addEventListener("click", () => {
-    this.classList.toggle("active");
-    appHeaderMenu.classList.toggle("active");
-})*/
+document.querySelector("#backspace").addEventListener("click", removeFromDisplay);
+
+document.querySelector("#calculate").addEventListener("click", calculatePayout);
+
+function appendToDisplay(event) {
+  const input = event.target.textContent;
+  document.querySelector("#display").value += input;
+  document.querySelector("#totalCostDisplay").value += input;
+}
+
+function removeFromDisplay(event) {
+  const input = event.target.textContent; 
+  document.querySelector("#display").value = input.slice(0, -1);
+  
+//    document.querySelector("#totalCostDisplay").value = input.slice(0, -1);
+}
+
+function calculatePayout() {
+
+}

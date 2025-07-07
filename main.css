@@ -24,6 +24,7 @@ body {
 body {
     background: url(img/abstract-sale-busioness-background-banner-design-multipurpose.png);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 * {

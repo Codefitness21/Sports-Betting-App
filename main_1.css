@@ -21,6 +21,8 @@ body {
 
 body {
     background: url(img/abstract-sale-busioness-background-banner-design-multipurpose.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 * {
@@ -134,7 +136,7 @@ header {
 
 a:hover {
     color: #CBAA65;
-  }
+}
 
 .closebtn {
     display: flex;
@@ -320,7 +322,7 @@ input[type="checkbox"] {
 }
 
 .game-board input[type="checkbox"]:checked+label .football {
-   max-width: 0px;
+    max-width: 0px;
 }
 
 

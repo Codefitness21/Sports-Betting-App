@@ -13,7 +13,6 @@
 html,
 body {
   width: 100%;
-
   font-size: 62.5%;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
@@ -21,6 +20,8 @@ body {
 
 body {
   background: url(img/abstract-sale-busioness-background-banner-design-multipurpose.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 * {
@@ -134,6 +135,7 @@ p {
 
 .green {
   font-weight: bold;
+  background-color: #CBAA65;
   color: green;
 }
 
@@ -143,13 +145,37 @@ p {
   justify-content: space-between;
   color: #fff;
   padding: 2rem;
-  font-size: 25px;
+  font-size: 16px;
   font-weight: bold;
   line-height: 2em;
 }
 
-.wager-amount {
-  text-decoration: underline;
+.wager-section-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wager-section-data .wager {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 5px 0;
+  gap: 5px;
+}
+
+#display {
+  width: 60%;
+}
+
+#totalCostDisplay{
+  width: 50%;
+  margin: 5px 5px;
+}
+
+#totalDisplay{
+  width: 50%;
+  margin: 5px 5px;
 }
 
 .total-payout-section {
@@ -159,53 +185,83 @@ p {
   border-top: 1px solid #fff;
 }
 
-.payout-totals {
+.total-payout-section .topPayout{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.total-cost{
+  display: flex;
+  flex-direction: column;
+}
+
+.total-payout {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.total-payout .bottomPayout {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#backspace img {
+width: 30%;
+}
+
+.payout {
   color: #fff;
   padding: 2rem;
-  font-size: 25px;
+  font-size: 16px;
   font-weight: bold;
   line-height: 2em;
 }
 
 .calculator-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  gap: 10px;
+}
+
+.keys {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
-  padding: 2rem;
+  gap: 10px;
 }
 
-.grid-item {
+input {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+button {
+  height: 50px;
   font-size: 20px;
-  background-color: #fff;
-  border: 5px solid;
   color: #000000;
-  font-weight: bold;
+  cursor: pointer;
   text-align: center;
-  padding: 15px;
-}
-
-.grid-item:hover {
-  color: #CBAA65;
+  border: none;
 }
 
 .submit-btn {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  padding: 1rem;
-}
-
-button {
-  width: 95%;
-  text-align: center;
-  border: none;
+  width: 100%;
 }
 
 .footer-totals {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
   padding: 2rem;
   color: #fff;
   font-size: 15px;

@@ -42,41 +42,48 @@
             <div class="wager-section-data">
                 <br>
                 <div>-130</div>
-                <div class="wager-amount">$100</div>
+                <div class="wager">$<input placeholder='0.00' id="display" readonly></div>
             </div>
         </div>
         <div class="total-payout-section">
             <div class="payout-totals">Total Payout</div>
-            <div class="payout-totals">$176.92</div>
+            <div class="payout topPayout">$<input placeholder='0.00' id="totalDisplay" readonly></div>
         </div>
-        <div class="calculator-container">
-            <div class="grid-item">1</div>
-            <div class="grid-item">2</div>
-            <div class="grid-item">3</div>
-            <div class="grid-item">4</div>
-            <div class="grid-item">5</div>
-            <div class="grid-item">6</div>
-            <div class="grid-item">7</div>
-            <div class="grid-item">8</div>
-            <div class="grid-item">9</div>
-            <div class="grid-item">.</div>
-            <div class="grid-item">0</div>
-            <div class="grid-item backspace"><img src="img/Arrow.png" alt="Back arrow"></div>    
-        </div>
-        <div class="submit-btn">
-        <button class="grid-item">OK</button>
-    </div>
+         <div class="calculator-container">
+                <div class="keys">
+                    <button id="one">1</button>
+                    <button id="two">2</button>
+                    <button id="three">3</button>
+                    <button id="four">4</button>
+                    <button id="five">5</button>
+                    <button id="six">6</button>
+                    <button id="seven">7</button>
+                    <button id="eight">8</button>
+                    <button id="nine">9</button>
+                    <button id="zero">0</button>
+                    <button id="period">.</button>
+                    <button id="backspace"><img src="img/backspace.png"></button>
+                </div>
+                <button class="submit-btn" id="calculate">OK</button>
+            </div>
 
-        <div class="footer-totals">
-            <div>Total Cost: $100</div>
-            <div>Total Payout: $176.92</div>
-        </div>
+            <div class="footer-totals">
+                <div class="total-cost">
+                    <div>Total Cost:</div>
+                    <div>$<input placeholder='0.00' id="totalCostDisplay" readonly></div>
+                </div>
+
+                <div class="total-payout">
+                    <div>Total Payout:</div>
+                    <div class="bottomPayout">$<input placeholder='0.00' id="totalDisplay" readonly></div>
+                </div>
+            </div>
     </div>
 
     </div>
 
     </div>
 </div>
+ <script src="script.js"></script>
 </body>
-
 </html>
