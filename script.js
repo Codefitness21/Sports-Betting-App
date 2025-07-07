@@ -31,7 +31,7 @@ function removeFromDisplay(event) {
   const input = event.target.textContent; 
   document.querySelector("#display").value = input.slice(0, -1);
   
-//    document.querySelector("#totalCostDisplay").value = input.slice(0, -1);
+   document.querySelector("#totalCostDisplay").value = input.slice(0, -1);
 }
 
 function calculatePayout() {
