@@ -21,19 +21,16 @@ document.querySelector("#backspace").addEventListener("click", removeFromDisplay
 
 document.querySelector("#calculate").addEventListener("click", calculatePayout);
 
+
 function appendToDisplay(event) {
   const input = event.target.textContent;
   document.querySelector("#display").value += input;
   document.querySelector("#totalCostDisplay").value += input;
 }
 
-function removeFromDisplay(event) {
-  const input = event.target.textContent; 
-  document.querySelector("#display").value = input.slice(0, -1);
-  
-   document.querySelector("#totalCostDisplay").value = input.slice(0, -1);
+function removeFromDisplay() {
+   const input = document.querySelector('#display');
+   const removeValue = input.value;
+   input.value = removeValue.slice(0, -1);
 }
 
-function calculatePayout() {
-
-}
