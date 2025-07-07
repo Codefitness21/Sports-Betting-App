@@ -211,7 +211,7 @@ p {
 }
 
 #backspace img {
-width: 30%;
+width: 8%;
 }
 
 .payout {
@@ -265,4 +265,12 @@ button {
   padding: 2rem;
   color: #fff;
   font-size: 15px;
+}
+
+
+/* Media Query for Mobile Backspace*/
+@media screen and (max-width: 1024px) {
+#backspace img {
+width: 30%;
+}
 }
