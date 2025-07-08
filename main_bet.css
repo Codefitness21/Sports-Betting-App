@@ -240,6 +240,7 @@ width: 8%;
   gap: 10px;
 }
 
+
 input {
   background-color: #000000;
   color: #ffffff;
@@ -252,6 +253,10 @@ button {
   cursor: pointer;
   text-align: center;
   border: none;
+}
+
+button:hover {
+  border: 2px solid #CBAA65;
 }
 
 .submit-btn {
