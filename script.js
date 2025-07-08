@@ -20,7 +20,7 @@ document.querySelector("#period").addEventListener("click", appendToDisplay);
 document.querySelector("#backspace").addEventListener("click", removeWagerFromDisplay);
 document.querySelector("#backspace").addEventListener("click", removeCostFromDisplay);
 
-document.querySelector("#calculate").addEventListener("click", calculatePayout);
+// document.querySelector("#calculate").addEventListener("click", calculatePayout);
 
 
 function appendToDisplay(event) {
